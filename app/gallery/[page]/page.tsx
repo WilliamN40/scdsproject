@@ -3,13 +3,11 @@ import Image from "next/image"
 import {
     Pagination,
     PaginationContent,
-    PaginationEllipsis,
     PaginationItem,
     PaginationLink,
     PaginationNext,
     PaginationPrevious,
   } from "@/components/ui/pagination"
-import { useSearchParams } from "next/navigation"
 
 export default async function GalleryPage({ params }: { params: { page: string } }) {
 
